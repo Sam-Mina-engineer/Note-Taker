@@ -128,3 +128,17 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Mac OS specific files
+.DS_Store
+
+# Debugger configurations
+.vscode/
+
+# Optional: Ignore database file (if it should not be versioned)
+db/notesData.json
+
+# Optional: Ignore any files related to IDEs or text editors
+.idea/
+*.sublime-workspace
+*.sublime-project
